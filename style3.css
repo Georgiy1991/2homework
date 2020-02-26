@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    position: relative;
+ }
+ 
+ .container{
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     border: 1px solid black;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%)
+ }
+ 
+ .box{
+     position: absolute;
+     width: 150px;
+     height: 150px;
+ }
+ 
+ .left {
+     background-color: red;
+     top: 0;
+     left:0;
+ }
+ 
+ .right {
+     background-color: blue;
+    right:0;
+    bottom:0;
+ }
+ 
+ .center {
+     background: green;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 

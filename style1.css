@@ -1,0 +1,34 @@
+
+body{
+    margin: fixed;
+}
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white
+}
+#one{
+    border: 4px double white; color: red;  
+        border-spacing: 7px 5px;
+}
+#first{
+    border-spacing: 7px 5px;
+}
+#second{
+    border-spacing: 7px 5px;
+}
+#third{
+    border-spacing: 7px 5px;
+}
+#one1{
+    background-color: tomato;
+}
+#first1{
+    background-color: yellow
+}
+#second1{
+    background-color: green
+}
+#third1{
+    background-color: blue
+}
